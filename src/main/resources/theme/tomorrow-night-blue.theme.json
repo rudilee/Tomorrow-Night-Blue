@@ -1,0 +1,85 @@
+{
+  "name": "Tomorrow Night Yale",
+  "dark": true,
+  "author": "Rudi (rudilee)",
+  "editorScheme": "/theme/tomorrow-night-blue.xml",
+  "colors": {
+    "background": "#002451",
+    "currentLine": "#00346E",
+    "selection": "#003F8E",
+    "foreground": "#FFFFFF",
+    "comment": "#7285B7",
+    "red": "#FF9DA4",
+    "orange": "#FFC58F",
+    "yellow": "#FFEEAD",
+    "green": "#D1F1A9",
+    "aqua": "#99FFFF",
+    "blue": "#BBDAFF",
+    "purple": "#EBBBFF",
+    "grey": "#BFC1C4",
+    "darkGrey": "#3C3C3C",
+    "selectedBg": "#617289",
+    "hoverBg": "#304764",
+    "border": "#2D4462",
+    "unselected": "#77889E",
+    "buttonBg": "#0E639C",
+    "checkboxBg": "#001733",
+    "headerBg": "#001C40"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "selectedBackground": "selectedBg",
+      "hoverBackground": "hoverBg",
+      "foreground": "foreground",
+      "disabledText": "comment",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "underlineColor": "comment",
+      "errorFocusColor": "red"
+    },
+    "Editor.background": "background",
+    "Panel.background": "background",
+    "ToolWindow.Header.inactiveBackground": "background",
+    "CheckBoxMenuItem.background": "checkboxBg",
+    "ToolWindow": {
+      "Header.background": "headerBg",
+      "Header.inactiveBackground": "headerBg"
+    },
+    "ComboBox": {
+      "background": "checkboxBg",
+      "ArrowButton.background": "checkboxBg"
+    },
+    "Button": {
+      "default.startBackground": "buttonBg",
+      "default.endBackground": "buttonBg",
+      "default.focusedBorderColor": "background",
+      "startBackground": "border",
+      "endBackground": "border",
+      "focusedBorderColor": "selection",
+      "disabledBorderColor": "comment",
+      "arc": 0
+    },
+    "EditorTabs": {
+      "background": "checkboxBg",
+      "underlineColor": "foreground"
+    },
+    "Borders": {
+      "color": "border",
+      "ContrastBorderColor": "background"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Red": "#FF9DA4",
+      "Actions.Yellow": "#FFEEAD",
+      "Actions.Green": "#D1F1A9",
+      "Actions.Blue": "#BBDAFF",
+      "Objects.Red": "#FF9DA4",
+      "Objects.Yellow": "#FFEEAD",
+      "Objects.Green": "#D1F1A9",
+      "Objects.Blue": "#BBDAFF",
+      "Objects.Purple": "#EBBBFF"
+    }
+  }
+}
